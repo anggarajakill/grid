@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harya Anggara</title>
+    <style>
+        .container{
+            width: 50%;
+            display: grid;
+            margin: auto;
+            grid-auto-rows: 55px;
+            grid-template-columns: repeat(5,1fr);
+            gap: 5px;
+        }
+        .site{
+        
+            background: gold;
+        }
+        .nav1{
+           
+            background: pink;
+          
+ }
+        .nav2{
+           
+            background: pink;
+        }
+           
+        .nav3{
+            background: pink;
+        }
+        .post{
+            background: skyblue;
+            grid-column-start: span 3;
+        }
+        .sidebar{
+            background: orange;
+            grid-row-end: span 2;
+
+          }
+        .postM{
+            background: greenyellow;
+            grid-column-start: 1;
+            grid-row-start: span 4;
+            
+        }
+        .mainC{
+            background:gainsboro;
+            grid-column:span 2;
+        }
+        .ads{
+             background: green;
+             grid-column-start: 4;
+             grid-row-start: span 2;
+
+        }
+        .mci{
+            background: yellow;
+            grid-column: span 2;
+            grid-row-start: span 3 ;
+        }
+        .otherS{
+            background: purple;
+            grid-column-start: 4;
+           
+        }
+        .footer{
+            grid-column-start: 1;
+            grid-column-end: 5;
+            background: lightsalmon;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="site">Side Title</div>
+        <div class="nav1">Nav1</div>
+        <div class="nav2">Nav2</div>
+        <div class="nav3">Nav3</div>
+        <div class="post">Post Title</div>
+        <div class="sidebar">Sidebar</div>
+        <div class="postM">Post Meta</div>
+        <div class="mainC">Main Content</div>
+        <div class="mci">Main Content Image</div>
+        <div class="ads">Ads</div>
+        <div class="otherS">Other Stuffs</div>
+        <div class="footer">&copy;2018 footer</div>
+    </div>
+</body>
+</html>
